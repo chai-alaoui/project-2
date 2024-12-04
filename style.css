@@ -1,0 +1,126 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+    opacity: 0.9;
+}
+
+.nav-list {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: underline;
+    padding: 20px 15px;
+    opacity: 0.9;
+}
+
+.content {
+    padding: 69px 60px 0;
+
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./resources/img-mission-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.text1 {
+    background-color: black;
+    width: 100%;
+}
+
+h2,
+h4 {
+    margin: 5px 0 10px;
+    opacity: 0.9;
+}
+
+.section2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.section2 .images {
+    width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+    margin: 5px 10px;
+}
+
+.section3 {
+    display: block;
+    background-image: url(./resources/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+.section3 h2 {
+    padding-top: 70px;
+}
+
+.locations {
+    display: inline-flex;
+}
+
+.loca1 {
+    background-color: black;
+    width: 300px;
+    margin: 15px;
+    line-height: 40px;
+    padding: 5px;
+}
+
+footer {
+    opacity: 0.9;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
